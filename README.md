@@ -10,3 +10,6 @@ sudo cp btusb.ko /lib/modules/$(uname -r)/kernel/drivers/bluetooth
 sudo modprobe -r btusb
 sudo modprobe -v btusb
 ```
+
+
+while putting this out there, I found this persons guide which is providing more context. I thought it was good and worth sharing: https://github.com/tedboudros/tplink-ub500-linux-patch-guide
